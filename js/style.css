@@ -1,0 +1,791 @@
+#container {
+  max-width: 1600px;
+  width: 100%;
+  margin: auto;
+}
+body {
+  font-family: sans-serif;
+}
+
+/* ////////////////////////////syed taqi /////////////////////////////*/
+
+.st-container {
+  max-width: 1600px;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#st-navP1 > div > span {
+  padding: 8px;
+  cursor: pointer;
+}
+
+#st-navP1 {
+  gap: 20px;
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+#st-navP1 > div:nth-of-type(1) span > img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+#st-navP1 > div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#st-navP1 > div:nth-of-type(2) > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+#st-navP1 > div > span:hover {
+  text-decoration: underline;
+}
+
+#st-navP2 {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#st-navP2 > div:nth-of-type(1) > a {
+  margin: 15px;
+  font-size: 14px;
+}
+
+#st-navP2 > div:nth-of-type(1) > a:hover {
+  text-decoration: underline;
+}
+
+#st-navP2 > div:nth-of-type(3) > a:hover {
+  text-decoration: underline;
+}
+
+#st-navP2 > div:nth-of-type(2) > a {
+  font-size: 38px;
+  font-weight: 1000;
+  cursor: default;
+  position: absolute;
+  right: 47%;
+  top: 8%;
+}
+
+#st-navP2 > div:nth-of-type(3) > a {
+  margin: 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  gap: 5px;
+}
+
+#st-navP2 > div:nth-of-type(3) > span {
+  margin: 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+#st-navP3 > div {
+  margin-top: 15px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+#st-navP3 > div > div > a {
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#st-navP3 > div > div > a:hover {
+  text-decoration: underline;
+}
+
+#st-navP3 > div > div > div > div > img:hover {
+  opacity: 0.4;
+}
+
+.st-content > div {
+  display: flex;
+  margin-top: 5px;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.st-content > div > span {
+  margin-bottom: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.st-content > div > a {
+  padding: 5px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Arial, sans-serif;
+}
+
+#st-button {
+  padding: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#searchname {
+  border: none;
+}
+#span {
+  border-bottom: 1px solid grey;
+  padding-bottom: 4px;
+}
+.st-button {
+  padding: 10px;
+  border: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.st-button:hover {
+  transform: scale(1.1);
+}
+
+.st-content > div > a:hover {
+  text-decoration: underline;
+}
+
+.st-newDD {
+  display: none;
+}
+
+.st-designersDD {
+  display: none;
+}
+
+.st-clothingDD {
+  display: none;
+}
+
+.st-dressesDD {
+  display: none;
+}
+
+.st-shoesDD {
+  display: none;
+}
+
+.st-bagsDD {
+  display: none;
+}
+
+.st-accessoriesDD {
+  display: none;
+}
+
+.st-beautyDD {
+  display: none;
+}
+
+.st-shopsDD {
+  display: none;
+}
+
+.st-kendallDD {
+  display: none;
+}
+
+.st-dropdown .st-content {
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  transition: display 1s ease;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.st-dropdown > :hover .st-newDD {
+  display: flex;
+}
+
+.st-dropdown > :hover .st-designersDD {
+  display: flex;
+}
+
+.st-dropdown > :hover .st-clothingDD {
+  display: flex;
+}
+
+.st-dropdown > :hover .st-dressesDD {
+  display: flex;
+}
+
+.st-dropdown > :hover .st-shoesDD {
+  display: flex;
+}
+
+.st-dropdown > :hover .st-bagsDD {
+  display: flex;
+}
+
+.st-dropdown > :hover .st-accessoriesDD {
+  display: flex;
+}
+
+.st-dropdown > :hover .st-beautyDD {
+  display: flex;
+  left: 40%;
+  transition: 1s ease;
+}
+
+.st-dropdown > :hover .st-shopsDD {
+  display: flex;
+  left: 40%;
+}
+
+.st-dropdown > :hover .st-kendallDD {
+  display: flex;
+  left: 55%;
+}
+
+#st-wishlist {
+  width: 100;
+  height: 10vh;
+  align-items: start;
+  background-color: #f5f5f5;
+}
+
+#st-wishlist > div {
+  display: flex;
+  margin: 20px;
+}
+
+#st-wishlist > div > a {
+  margin: 12px;
+  margin-top: 50px;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+#st-wishlist > div > a:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+/* ///////////////////////////////////////////////////////////////// */
+
+.st-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-size: 27px;
+  letter-spacing: 1px;
+  margin: 22px 0px 16px;
+  font-weight: 540;
+}
+
+.st-cardContainer {
+  width: 85%;
+  margin: auto;
+  height: auto;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.st-cardContainer > a > div {
+  display: block;
+  flex-direction: column;
+  margin: auto;
+  width: 95%;
+  height: auto;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.st-cardContainer > a > div:hover {
+  opacity: 0.45;
+}
+
+.st-cardContainer > a > div > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.st-cardContainer > a > div > h4 {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.st-cardContainer > a > div > p {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.st-cardContainer > a > div > p:nth-of-type(2) {
+  margin-bottom: 50px;
+  padding: 5px;
+  text-decoration: underline;
+}
+
+/* ////////////////////////////syed taqi /////////////////////////////*/
+.btn1 {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  width: 300px;
+  margin: 5px;
+}
+.btn2 {
+  padding: 15px 30px;
+  width: 300px;
+  margin: 5px;
+}
+#backpage {
+  padding: 10px 40px;
+  color: aliceblue;
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin: 10px;
+}
+.pcardstyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+.pcardstyle img {
+  width: 500px;
+}
+
+#mafoot1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #f3e7e0;
+  font-family: sans-serif;
+}
+
+#mafoot1 > p:nth-child(1) {
+  font-weight: 500;
+}
+
+#mafoot1 > p:nth-child(2) {
+  font-size: 13.5px;
+}
+
+#mafoot1 a {
+  color: black;
+  font-size: 16px;
+}
+#mamain {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+}
+.mabtnclass {
+  padding: 8px 12px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+}
+#malist1 {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+#malist2 {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+#malist3 {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+#malist3 {
+  line-height: 1.5;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+#malist3 input {
+  padding: 10px;
+  margin-top: 10px;
+  width: 320px;
+  font-size: 14px;
+}
+#wishcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding: 60px;
+}
+#malist4 {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+#malist5 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#macopy {
+  margin-left: 90px;
+  margin-top: 20px;
+  font-size: 12px;
+  color: gray;
+}
+#maheadings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#maheadings > p:nth-child(1) {
+  font-weight: 550;
+  font-size: 33px;
+  margin-bottom: 0px;
+  letter-spacing: 1.5px;
+}
+#maheadings > p:nth-child(2) {
+  font-weight: 800px;
+  font-size: 27px;
+  letter-spacing: 1.5px;
+}
+#maimg1 img {
+  margin-bottom: 15px;
+}
+#ma1 {
+  width: 1570px;
+  padding: 13px;
+  border: 2px solid black;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+#masignin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 0px 100px;
+  margin-top: -30px;
+  margin-bottom: -10px;
+}
+
+#masignin p {
+  font-size: 40px;
+  font-weight: bolder;
+}
+#maforms {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 40px;
+}
+#masignin1 {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  gap: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  gap: 18px;
+}
+
+input {
+  padding: 10px;
+}
+
+#masmall {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#maradios {
+  display: flex;
+  gap: 20px;
+}
+
+#map1,
+#map1 ~ ul {
+  margin: 0px;
+  font-size: 12px;
+}
+#malistul > li {
+  margin-left: -30px;
+  margin-bottom: 5px;
+}
+.mabtn {
+  background-color: black;
+  color: white;
+  padding: 17px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#materms {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.maclr {
+  color: red;
+  text-decoration: underline;
+}
+#mabox {
+  font-size: 13px;
+}
+#mabox2 {
+  display: block;
+  gap: 5px;
+}
+#maherosection {
+  display: flex;
+  gap: 15px;
+}
+#macategory {
+  width: 180px;
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+#macontainer {
+  width: 1400px;
+}
+.maselectdesigner {
+  border: none;
+  font-size: 16px;
+}
+#maline {
+  display: flex;
+  gap: 12px;
+  border-bottom: 1px solid grey;
+}
+#mah3 {
+  margin-top: 20px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid grey;
+}
+#macardbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 60px;
+}
+#malineunder {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.cardstyle {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.cardstyle img {
+  height: 400px;
+  margin: 15px 0px;
+}
+.maptags {
+  margin: 7px;
+}
+.optionfont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+/* ============== Rahul and pradeep ================ */
+
+#Rmain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 10px; */
+}
+
+#rpCard1 {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+#rpCard2 {
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1em;
+  gap: 1.2%;
+}
+
+#rpCard2 img,
+#rpCard3 img {
+  width: 120%;
+  height: 100%;
+}
+
+#rpCard2 p,
+#rpCard3 p {
+  text-align: center;
+  font-size: 1em;
+}
+
+#rCard-heading3 {
+  text-align: center;
+  padding: 1em;
+}
+
+#rpCard3 {
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#rpCard3 div,
+#rpCard2 div {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 
+#rpCard2 > img:nth-of-type(1) {
+  
+}
+
+#rpCard2 > img:nth-of-type(2) {
+  
+}
+
+#rpCard2 > img:nth-of-type(3) {
+  
+}
+
+#rpCard2 > img:nth-of-type(4) {
+  
+}
+
+#rpCard2 > img:nth-of-type(5) {
+ 
+}
+
+#rpCard2 > img:nth-of-type(6) {
+  
+} */
+
+/* pradeep  */
+
+#deepMain {
+  margin: 50px 0 50px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+#deepSideBar {
+  flex: 2;
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  align-self: flex-start;
+  gap: 10px;
+}
+
+#deepSideBar > a,
+#deepSideBar > h4 {
+  padding-left: 10%;
+}
+
+#deepSideBar > a:hover {
+  text-decoration: underline;
+}
+
+#deepDesigner {
+  flex: 8;
+}
+
+.deepContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.deepContainer > p {
+  flex-basis: calc(33.33% - 10px);
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.deepContainer > p > span {
+  padding-right: 5px;
+}
